@@ -1,0 +1,23 @@
+---
+layout: main.njk
+---
+<div style="font-size: 20px; text-align: center; padding: 2em; color: var(--light); background-color: var(--dark2); height:100vh; ">
+<h1>Kontakt aufnehmen</h1>
+
+<form accept-charset="UTF-8" action="https://www.formbackend.com/f/{your-identifier}" method="POST">
+  <label for="name">Name</label>
+  <br>
+  <input type="text" id="name" name="name" required>
+  <br>
+  <label for="email">Email</label>
+  <br>
+  <input type="email" id="email" name="email" required>
+  <br>
+  <label for="message">Nachricht</label>
+  <br>
+  <textarea type="text" id="message" name="message" required></textarea>
+  <br>
+  <button class="btn" type="submit" >Senden</button>
+</form>
+
+</div>

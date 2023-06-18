@@ -1,0 +1,129 @@
+
+@font-face {
+    font-family: 'millimetrelight';
+    src: url('millimetre-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root{
+    --dark: #231B1B; 
+    --dark2: #2E2323; 
+    --primary: #78C3FB;
+    --primary2: #89A6FB;
+    --secondary: #EB7C76;
+    --light: #F5EEEF;
+    --light2: #F0E5E7;
+}
+body{
+    width:100%;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--light);
+    color: var(--dark);
+}
+.title{
+    flex-grow:2;
+}
+.title2{
+    font-family: karrik;
+    font-size: 35px;
+}
+
+  img{
+    max-width: 50vw;
+    max-height: 30vw;
+  }
+.topnav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: var(--dark);
+    overflow: hidden;
+  }
+  .topnav a{
+    flex-grow:2;
+    color: var(--light);
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .topnav a:hover {
+    background-color: var(--primary);
+    color: var(--light);
+  }
+  .btn{
+    border-radius: 12px;
+    width: fit-content;
+    display: inline-block;
+    border-style: none;
+    box-shadow: none;
+    margin: 0px;
+    padding: 10px;
+    background-color: var(--primary2);
+    color: var(--dark);
+    font-size: 20px;
+
+  }
+  .btn:hover{
+    background-color: var(--light);
+    color: var(--dark)
+  }
+  .btn a{
+    text-decoration:none;
+    color: var(--dark);
+    font-size: 20px;
+  }
+  .grid-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    padding: 10spx;
+  }
+  .card{
+    padding: 12px;
+    max-width: 450px;
+    background-color: var(--light2);
+    border-radius: 12px;
+    text-align: center;
+  }
+  .card2{
+    padding: 8px;
+    max-width: 450px;
+    background-color: var(--primary);
+    font-size: 12px;
+    color: var(--light);
+    border-radius: 12px;
+    text-align: center;
+  }
+  .icon{
+    height: 60px;
+    display:inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+  .icon-small{
+    padding: 4px;
+    display:inline-block;
+  }
+.list{
+  background-color: var(--dark);
+  color:var(--light);
+  margin: 10px;
+}
+.list h4{
+  margin:0px;
+  padding:0px;
+}
+textarea {
+  width: 500px;
+  height: 200px;
+}
